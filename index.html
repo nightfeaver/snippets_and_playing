@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head lang="en">
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
@@ -9,29 +9,79 @@
 <body>
 <div id="wrapper">
 
-<header>
-    <h1 class="site-title">Simple HTML5 Template</a></h1>
-</header>
+    <header>
+        <h1 class="site-title">Gimmie your details to share with everyone</a></h1>
+    </header>
 
-<nav>   </nav>
+    <nav></nav>
 
-<section>
+    <section>
 
-    <form>
-        some text here: <input type="button" value="click me" id="button1">
+        <form>
 
-    </form>
-<p>Here's a bit of text entered in a paragraph element</p>
-</section>
+            <fieldset><legend>Who are you</legend><br>
 
-<footer>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName"><br><br>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName"><br><br>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age"><br>
+
+            </fieldset><br>
+
+            <fieldset><legend>Contact Details</legend><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone"><br>
+
+            </fieldset><br>
+
+            <fieldset><legend>Anything you want to share?</legend><br>
+
+                <label for="whoKnows">Fire away:</label>
+                <textarea id="whoKnows" name="whoKnows"></textarea>
+
+            </fieldset><br>
+
+            <fieldset>
+            <legend>What are you in to</legend><br>
+            Shark Fishing:<input type="radio" id="interests" value="SharkFishing" name="interests"><br>
+            Counting Ants:<input type="radio" id="interests" value="countAnts" name="interests"><br>
+            Drinking fire:<input type="radio" id="interests" value="drinkFire" name="interests"><br>
+            Planking:<input type="radio" id="interests" value="planking" name="interests"><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>You want...</legend><br>
+                Shark Fishing:<input type="radio" id="interests" value="SharkFishing" name="interests"><br>
+                Counting Ants:<input type="radio" id="interests" value="countAnts" name="interests"><br>
+                Drinking fire:<input type="radio" id="interests" value="drinkFire" name="interests"><br>
+                Planking:<input type="radio" id="interests" value="planking" name="interests"><br>
+            </fieldset>
+
+            <br>
+            <input type="submit" id="submit" value="Submit">
 
 
+        </form>
 
-</footer>
+
+        <p>I can assure you that your personal data is safe lol</p>
+    </section>
+
+    <footer>
 
 
-<script type="text/javascript" src="javascript.js"></script>
+    </footer>
+
+
+    <script type="text/javascript" src="javascript.js"></script>
 
 </div>
 </body>
