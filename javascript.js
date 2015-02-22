@@ -3,7 +3,7 @@
  */
 
 // set page color
-document.body.style.backgroundColor = "cornsilk";
+document.body.style.backgroundColor = "midnightblue";
 
 var timestamp = new Date();
 console.log(timestamp);

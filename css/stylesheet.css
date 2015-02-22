@@ -1,7 +1,12 @@
-p {
-    color: blue;
-}
 
-html {font-family: Arial}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #384047;
+    }
 
 h1 {color:saddlebrown}
+
+form {max-width: 500px;}
+fieldset {background:teal;
+color: ghostwhite}

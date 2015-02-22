@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head lang="en">
     <meta charset="UTF-8">
+    <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <title>Jon's page of magic</title>
 </head>
@@ -51,21 +52,44 @@
                 <textarea id="whoKnows" name="whoKnows"></textarea>
 
             </fieldset><br>
+<fieldset><legend>Profession</legend><br>
+
+            <label for="job">Job role:</label>
+            <select id="job" name="user_job">
+                <optgroup label="Web">
+                    <option value="frontend_developer">Front End</option>
+                    <option value="php_developer">PHP Developer</option>
+                    <option value="python_developer">Python Developer</option>
+                    <option value="rails_developer">Rails Developer</option>
+                    <option value="web_designer">Web Designer</option>
+                    <option value="wordpress_developer">WordPress Developer</option>
+                </optgroup>
+                <optgroup label="Mobile">
+                    <option value="android_developer">Android Developer</option>
+                    <option value="ios_developer">iOS Developer</option>
+                    <option value="mobile_designer">Mobile Designer</option>
+                </optgroup>
+                <optgroup label="Business">
+                    <option value="business_owner">Business Owner</option>
+                    <option value="freelancer">Freelancer</option>
+                </optgroup>
+            </select><br><br>
+
+    <input type="checkbox" id="french" value="French" name="languages"><label for="french">Francias?</label><br>
+    <input type="checkbox" id="italian" value="French" name="languages"><label for="italian">Italian?</label><br>
+    <input type="checkbox" id="german" value="French" name="languages"><label for="german">German?</label><br>
+    <input type="checkbox" id="chav" value="French" name="languages"><label for="chav">Chav?</label>
+
+</fieldset><br>
+
+
 
             <fieldset>
             <legend>What are you in to</legend><br>
-            Shark Fishing:<input type="radio" id="interests" value="SharkFishing" name="interests"><br>
-            Counting Ants:<input type="radio" id="interests" value="countAnts" name="interests"><br>
-            Drinking fire:<input type="radio" id="interests" value="drinkFire" name="interests"><br>
-            Planking:<input type="radio" id="interests" value="planking" name="interests"><br>
-            </fieldset>
-
-            <fieldset>
-                <legend>You want...</legend><br>
-                Shark Fishing:<input type="radio" id="interests" value="SharkFishing" name="interests"><br>
-                Counting Ants:<input type="radio" id="interests" value="countAnts" name="interests"><br>
-                Drinking fire:<input type="radio" id="interests" value="drinkFire" name="interests"><br>
-                Planking:<input type="radio" id="interests" value="planking" name="interests"><br>
+            <input type="radio" id="shark" value="SharkFishing" name="interests"><label for="shark">Shark fishing</label> <br>
+            <input type="radio" id="ants" value="countAnts" name="interests"><label for="ants">Counting Ants</label> <br>
+            <input type="radio" id="fire" value="drinkFire" name="interests"><label for="fire">Drinking fire</label> <br>
+            <input type="radio" id="plank" value="planking" name="interests"><label for="plank">Planking</label> <br>
             </fieldset>
 
             <br>
